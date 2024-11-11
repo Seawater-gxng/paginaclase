@@ -1,0 +1,190 @@
+/* Colores corporativos */
+header{
+    width: 100%;
+}
+:root {
+    --color-aguamarina: #7FFFD4; /* Verde aguamarina */
+    --color-azul: #005f99;       /* Azul corporativo */
+    --color-negro: #1a1a1a;      /* Negro */
+    --color-blanco: #ffffff;     /* Blanco */
+    --color-gris-claro: #f2f2f2; /* Fondo claro */
+}
+
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--color-gris-claro);
+    color: var(--color-negro);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezado principal */
+caption {
+    font-size: 2em;
+    color: var(--color-aguamarina);
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--color-azul);
+    width: 100%;
+}
+
+/* Tabla de navegación */
+table {
+    width: 100%;
+    background-color: var(--color-negro);
+    text-align: center;
+    border-spacing: 0;
+}
+
+th {
+    padding: 15px;
+}
+
+th a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: block;
+    padding: 10px 20px;
+}
+
+th a:hover {
+    background-color: var(--color-aguamarina);
+    color: var(--color-negro);
+}
+
+/* Ajustes para el contenido */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--color-blanco);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--color-azul);
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Pie de página */
+footer {
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    width: 100%;
+    margin-top: auto;
+}
+/* Pie de página */
+footer {
+    background-color: var(--color-azul);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 0.9em;
+    width: 100%;
+    margin-top: auto;
+    line-height: 1.4;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--color-aguamarina);
+}
+/* Estilos del Log-in en la esquina superior derecha */
+.login-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.login-link {
+    color: var(--color-blanco);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.register-link {
+    color: var(--color-blanco);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.login-link:hover {
+    color: var(--color-aguamarina);
+}
+.register-link:hover {
+    color: var(--color-aguamarina);
+}
+
+/* Estilos para el contenedor de opciones */
+.options-container {
+    text-align: center; /* Centrar el contenido */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Estilos para la lista de opciones */
+.options-list {
+    list-style: none; /* Quitar viñetas */
+    padding: 0; /* Quitar padding */
+    display: flex; /* Usar flexbox para alinear horizontalmente */
+    justify-content: center; /* Centrar los elementos en la lista */
+}
+
+.options-list li {
+    margin: 0 10px; /* Espaciado entre elementos de la lista */
+}
+
+.options-list a {
+    display: inline-block; /* Para aplicar padding y margenes */
+    background-color: var(--color-azul); /* Fondo azul */
+    color: var(--color-blanco); /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición para hover */
+}
+
+.options-list a:hover {
+    background-color: var(--color-aguamarina); /* Cambiar color de fondo en hover */
+    color: var(--color-negro); /* Cambiar color del texto en hover */
+}
+.header-options-container {
+    background-color: var(--color-negro); /* Fondo negro */
+    padding: 20px 0; /* Espaciado superior e inferior */
+    text-align: center; /* Centrar texto */
+    width: 100%; /* Asegura que el contenedor use todo el ancho */
+}
+
+/* Estilo del título */
+.header-options-container h2 {
+    font-size: 2.5em; /* Tamaño del texto */
+    color: var(--color-blanco); /* Color blanco */
+    margin: 0; /* Eliminar margen por defecto */
+}
